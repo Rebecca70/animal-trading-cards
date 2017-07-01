@@ -1,26 +1,53 @@
-.stage-content {
-  width: 400px;
-  height: 650px;
-  background-color: #ffd699;
-  box-shadow: 10px 10px 5px grey;
-  padding: 10px;
-}
-
+h1 {
+  color: #666600;
+  padding: 2px;
 
 }
 img {
   width: 300px;
+  margin: 7px;
+  box-shadow: 5px 5px 2px #666600;
+  border-radius: 5px;
+}
+
+p {
+  margin: 7px;
+}
+
+.card {
+  background-color: #666600;
+  height: 780px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.card-content {
+  width: 320px;
+  height: 725px;
+  margin: auto;
+  background-color: #ffd699;
+  box-shadow: 10px 10px 5px grey;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
 }
 
 .text-content {
+  color: grey;
   border: 1px solid grey;
-  padding: 5px;
+  box-shadow: 5px 5px 2px grey;
+  width: 300px;
+  padding-top: 7px;
+  margin: auto;
+  border-radius: 5px;
 }
 
 .list {
   list-style-type: none;
+  padding-left: 7px;
 }
 
-.label {
+.list-label {
   font-weight: bold;
+  color: #666600;
 }
